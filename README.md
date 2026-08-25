@@ -6,7 +6,7 @@ The goal of this project is to help students stay focused during study sessions 
 
 ## ✨ Features
 
-* ⏱️ 25-minute study 
+* ⏱️ 25-minute study timer
 * ▶️ Start the timer
 * ⏸️ Pause the timer
 * 🔄 Reset the timer
