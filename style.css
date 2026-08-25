@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+
+    /* Purple → pink background */
+    background: linear-gradient(
+        135deg,
+        #a78bfa,
+        #f0abfc,
+        #fda4af
+    );
+
+    color: #171744;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Main container */
+
+.container {
+    width: 900px;
+    max-width: 90%;
+
+    text-align: center;
+
+    padding: 40px 0;
+}
+
+
+/* ---------------- HEADER ---------------- */
+
+header {
+    margin-bottom: 25px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.book {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 52px;
+    margin: 0;
+
+    color: #171744;
+}
+
+header p {
+    font-size: 24px;
+
+    margin: 10px 0;
+
+    color: #55527a;
+    font-weight: bold;
+}
+
+.line {
+    width: 140px;
+    height: 7px;
+
+    margin: 15px auto;
+
+    border-radius: 20px;
+
+    background: #8b5cf6;
+}
+
+
+/* ---------------- TIMER CARD ---------------- */
+
+.timer-card {
+    position: relative;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    border-radius: 25px;
+
+    padding: 40px;
+
+    box-shadow:
+        0 15px 35px rgba(50, 20, 100, 0.15);
+
+    overflow: hidden;
+}
+
+
+/* Purple label */
+
+.study-label {
+    display: inline-block;
+
+    padding: 10px 25px;
+
+    border-radius: 30px;
+
+    background: linear-gradient(
+        90deg,
+        #8b5cf6,
+        #a855f7
+    );
+
+    color: white;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+
+/* Timer */
+
+#timer {
+    font-size: 125px;
+
+    font-weight: bold;
+
+    margin: 25px 0 10px;
+
+    color: #151542;
+
+    letter-spacing: 5px;
+}
+
+
+/* Timer information */
+
+.timer-info {
+    font-size: 18px;
+
+    color: #66627f;
+
+    font-weight: bold;
+}
+
+.timer-info span {
+    margin: 0 15px;
+}
+
+
+/* ---------------- BUTTONS ---------------- */
+
+.buttons {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    margin: 45px 0;
+}
+
+button {
+    width: 230px;
+
+    padding: 18px;
+
+    border: none;
+
+    border-radius: 15px;
+
+    color: white;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+/* Start */
+
+.start {
+    background: #2dcc8a;
+
+    box-shadow:
+        0 8px 15px rgba(45, 204, 138, 0.3);
+}
+
+
+/* Pause */
+
+.pause {
+    background: #f6ad12;
+
+    box-shadow:
+        0 8px 15px rgba(246, 173, 18, 0.3);
+}
+
+
+/* Reset */
+
+.reset {
+    background: #fa5757;
+
+    box-shadow:
+        0 8px 15px rgba(250, 87, 87, 0.3);
+}
+
+
+/* Button hover */
+
+button:hover {
+    transform: translateY(-3px) scale(1.02);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+
+/* ---------------- STATS ---------------- */
+
+.stats {
+    background: rgba(255, 255, 255, 0.85);
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    box-shadow:
+        0 10px 25px rgba(50, 20, 100, 0.1);
+}
+
+
+.stat {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    text-align: left;
+
+    min-width: 200px;
+}
+
+
+/* Icons */
+
+.icon {
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    font-size: 24px;
+
+    font-weight: bold;
+}
+
+
+.purple {
+    background: #8b5cf6;
+}
+
+.blue {
+    background: #3b82f6;
+}
+
+.pink {
+    background: #ec4899;
+}
+
+
+/* Stat text */
+
+.stat p {
+    margin: 0 0 5px;
+
+    color: #55527a;
+
+    font-weight: bold;
+
+    font-size: 15px;
+}
+
+.stat h2 {
+    margin: 0;
+
+    color: #171744;
+
+    font-size: 24px;
+}
+
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+    margin-top: 35px;
+
+    color: #55527a;
+
+    font-size: 17px;
+
+    font-weight: bold;
+}
+
+
+/* ---------------- MOBILE ---------------- */
+
+@media (max-width: 750px) {
+
+    h1 {
+        font-size: 38px;
+    }
+
+    #timer {
+        font-size: 80px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    .stats {
+        flex-direction: column;
+
+        gap: 25px;
+    }
+
+    .stat {
+        justify-content: center;
+    }
+}

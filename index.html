@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Study Timer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <div class="title">
+                <span class="book">📖</span>
+                <h1>Study Timer</h1>
+            </div>
+
+            <p>Focus. Study. Succeed.</p>
+
+            <div class="line"></div>
+        </header>
+
+
+        <!-- Timer Card -->
+        <div class="timer-card">
+
+            <div class="study-label">
+                🎓 &nbsp; STUDY TIME
+            </div>
+
+            <div id="timer">25:00</div>
+
+            <div class="timer-info">
+                ⏱️ Minutes
+                <span>|</span>
+                ⏰ Focus Mode
+            </div>
+
+        </div>
+
+
+        <!-- Buttons -->
+        <div class="buttons">
+
+            <button class="start" onclick="startTimer()">
+                ▶ &nbsp; Start
+            </button>
+
+            <button class="pause" onclick="pauseTimer()">
+                ⏸ &nbsp; Pause
+            </button>
+
+            <button class="reset" onclick="resetTimer()">
+                ↻ &nbsp; Reset
+            </button>
+
+        </div>
+
+
+        <!-- Statistics -->
+        <div class="stats">
+
+            <div class="stat">
+                <div class="icon purple">✓</div>
+
+                <div>
+                    <p>Sessions Completed</p>
+                    <h2 id="sessions">0</h2>
+                </div>
+            </div>
+
+
+            <div class="stat">
+                <div class="icon blue">🏆</div>
+
+                <div>
+                    <p>Total Study Time</p>
+                    <h2>
+                        <span id="totalTime">0</span> min
+                    </h2>
+                </div>
+            </div>
+
+
+            <div class="stat">
+                <div class="icon pink">🎯</div>
+
+                <div>
+                    <p>Goal Today</p>
+                    <h2>4 sessions</h2>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer>
+            ♡ Stay consistent and make progress every day!
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
