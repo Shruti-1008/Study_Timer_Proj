@@ -15,7 +15,9 @@ The goal of this project is to help students stay focused during study sessions 
 * ⏰ Tracks total study time
 * 🎯 Daily study goal
 * 📱 Responsive design for smaller screens
-* 🎨 Colorful and modern 
+* 🎨 Colorful and modern
+
+* Example
 
 ## 🍅 What is the Pomodoro Technique?
 
