@@ -2,7 +2,7 @@
 
 A simple and colorful Pomodoro-style study timer built using **HTML, CSS, and JavaScript**.
 
-The goal of this project is to help students stay focused during study sessions while keeping track of completed sessions and total study time.
+The goal of this project is to help students stay focused during study sessions while keeping track of completed sessions and total study
 
 ## ✨ Features
 
