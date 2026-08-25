@@ -69,7 +69,7 @@ When the timer reaches `00:00`:
 * A notification appears.
 * The timer stops.
 
-## 🔮 Future Improveme
+## 🔮 Future Improvements:
 
 Some features I would like to add:
 
