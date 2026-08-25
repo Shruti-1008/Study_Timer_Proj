@@ -1,4 +1,4 @@
-# 📚 Study Timer
+# 📚 Stud
 
 A simple and colorful Pomodoro-style study timer built using **HTML, CSS, and JavaScript**.
 
