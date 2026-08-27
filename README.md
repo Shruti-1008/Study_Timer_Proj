@@ -8,12 +8,12 @@ The goal of this project is to help students stay focused during study sessions 
 
 * ⏱️ 25-minute study timer
 * ▶️ Start the timer
-* ⏸️ Pause the t
-* 🔄 Reset the t
+* ⏸️ Pause the timer
+* 🔄 Reset the timer
 * 🎉 Notification when a study session is completed
 * 📊 Tracks completed study sessions
 * ⏰ Tracks total study time
-* 🎯 Daily study goal
+* 🎯 Daily study goa
 * 📱 Responsive design for smaller screens
 * 🎨 Colorful and modern
 
