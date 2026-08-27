@@ -18,7 +18,7 @@ The goal of this project is to help students stay focused during study sessions 
 * 🎨 Colorful and modern
 
 
-
+## 🍅 What is the Pomodoro Technique?
 
 The **Pomodoro Technique** is a time-management method that helps you stay focused by dividing your work into short, focused study sessions with regular breaks.
 
