@@ -13,7 +13,7 @@ The goal of this project is to help students stay focused during study sessions 
 * 🎉 Notification when a study session is completed
 * 📊 Tracks completed study sessions
 * ⏰ Tracks total study time
-* 🎯 Daily study goa
+* 🎯 Daily study goal
 * 📱 Responsive design for smaller screens
 * 🎨 Colorful and modern
 
