@@ -31,7 +31,6 @@ A typical Pomodoro session works like this:
 
 The idea is to make studying feel more manageable while reducing distractions and preventing burnout.
 
-This Study Timer is inspired by the Pomodoro Technique and provides a simple way to track focused study sessions.
 
 
 ## 🛠️ Technologies Used
