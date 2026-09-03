@@ -1,4 +1,4 @@
-# 📚 Study Timer 23
+# 📚 Study Timer 
 
 A simple and colorful Pomodoro-style study timer built using **HTML, CSS, and JavaScript**.
 
